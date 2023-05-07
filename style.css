@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+}
+
+body {
+    background-color: #3C6255;
+}
+
+.container {
+    margin: 100px auto;
+    padding: 20px;
+    width: 40%;
+    background-color: #A6BB8D;
+    border-radius: 10px;
+    display: grid;
+    grid-template-areas: 
+        "numb-1 numb-1 numb-2 numb-2 result result"
+        "op op op op result result"
+        "reset reset reset reset result result ";
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+.number-1 {
+    grid-area: numb-1;
+    border-radius: 5px;
+    border-width: 0;
+}
+
+.number-2 {
+    grid-area: numb-2;
+    border-radius: 5px;
+    border-width: 0;
+}
+
+.result {
+    grid-area: result;
+    border-radius: 5px;
+    border-width: 0;
+}
+
+.operator-wrapper {
+    grid-area: op;
+    display: flex;
+    justify-content: space-between;
+}
+
+.operator {
+    width: 23%;
+}
+
+.plus {
+    grid-area: plus;
+}
+
+.minus {
+    grid-area: minus;
+}
+
+.times {
+    grid-area: times;
+}
+
+.devide {
+    grid-area: devide;
+}
+
+.reset {
+    grid-area: reset;
+    width: 100%;
+}
+
+.btn {
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 0;  
+}
+
+.btn:hover {
+    background-color: #a8a8a8;
+}
+
+.btn:active {
+    background-color: #838383;
+}
