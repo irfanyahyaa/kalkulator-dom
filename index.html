@@ -10,17 +10,17 @@
 </head>
 <body>
     <div class="container">
-        <input type="number" class="number-1">
-        <input type="number" class="number-2">
-        <input type="number" class="result" disabled>
+        <input type="number" class="number-1" id="numb1">
+        <input type="number" class="number-2" id="numb2">
+        <input type="number" class="result" id="result" disabled>
         <div class="operator-wrapper">
-            <button class="operator plus btn" value="+">&plus;</button>
-            <button class="operator minus btn" value="-">&minus;</button>
-            <button class="operator times btn" value="*">&times;</button>
-            <button class="operator devide btn" value="/">&divide;</button>
+            <button class="operator plus btn" value="+" onclick="plus()">&plus;</button>
+            <button class="operator minus btn" value="-" onclick="minus()">&minus;</button>
+            <button class="operator times btn" value="*" onclick="times()">&times;</button>
+            <button class="operator devide btn" value="/" onclick="devide()">&divide;</button>
         </div>
         <button class="reset btn">Reset</button>
     </div>
-    <script></script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

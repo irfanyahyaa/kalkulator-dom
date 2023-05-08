@@ -25,12 +25,14 @@ body {
 
 .number-1 {
     grid-area: numb-1;
+    padding: 5px;
     border-radius: 5px;
     border-width: 0;
 }
 
 .number-2 {
     grid-area: numb-2;
+    padding: 5px;
     border-radius: 5px;
     border-width: 0;
 }
@@ -39,6 +41,8 @@ body {
     grid-area: result;
     border-radius: 5px;
     border-width: 0;
+    text-align: center;
+    font-size: 56px;
 }
 
 .operator-wrapper {
