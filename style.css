@@ -39,6 +39,7 @@ body {
 
 .result {
     grid-area: result;
+    text-align: center;
     border-radius: 5px;
     border-width: 0;
     text-align: center;
